@@ -1,0 +1,115 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    background: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .container{
+     display: grid;
+     grid-template-columns: 1fr;
+     background-size: cover;
+     grid-gap:10px;
+
+ }
+
+
+ .container > section{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 100vh;
+ }
+
+ .container > section:nth-of-type(1){
+   background-image: url(vlcsnap-2019-12-05-20h00m41s207.png);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .screen-1{
+     text-align:center ;
+     font-size:40px;
+    font-weight: lighter; 
+ }
+
+/* 
+ .container > section:nth-of-type(2):before{
+    content: "";
+    background-image: url(vlcsnap-2019-12-05-20h00m41s207.png);
+ } */
+
+ .container > section:nth-of-type(2){
+   background-image: url(equalizer.jpg);
+    display: grid;
+    height: 120vh;
+ }
+
+ .showcase{
+    background-color: rgba(11, 34, 49, 0.945);
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 0 50px 0 50px;
+ }
+
+
+ .screen-2{
+   text-align:center ;
+   font-size: 25px;
+  font-weight: lighter; 
+ 
+}
+
+.screen-2 h2{
+   margin-bottom: 10px;
+}
+
+.container > section:nth-of-type(3){
+   background-image: url(vlcsnap-2019-12-05-20h00m41s207.png);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+
+ .screen-3{
+   text-align:center ;
+   font-weight: lighter; 
+ 
+}
+
+.screen-3 p{
+   font-size: 50px;
+   margin-bottom: 10px;
+}
+
+.screen-3 a{
+   display: inline-block;
+   padding: 15px 40px;
+   margin-top: 20px;
+   background: rgb(13, 77, 121);
+   border-radius: 4px;
+   color: #fff;
+   text-decoration: none;
+   font-size: 25px;
+
+}
+
+.screen-3 a:hover{
+   background: rgba(13, 78, 121, 0.445);
+   transform: scale(0.98);
+
+}
+
