@@ -29,7 +29,7 @@
  }
 
  .container > section:nth-of-type(1){
-   background-image: url(vlcsnap-2019-12-05-20h00m41s207.png);
+   background-image: url(xmpfb3t5pzejf4fr4hxd.png);
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -49,13 +49,13 @@
  } */
 
  .container > section:nth-of-type(2){
-   background-image: url(equalizer.jpg);
+   background-image: url(pa1rlrxtuwmmzeo16rka.jpg);
     display: grid;
     height: 120vh;
  }
 
  .showcase{
-    background-color: rgba(11, 34, 49, 0.945);
+   background-color: rgba(11, 34, 49, 0.945);
    display:flex;
    flex-direction: column;
    align-items: center;
@@ -76,7 +76,7 @@
 }
 
 .container > section:nth-of-type(3){
-   background-image: url(vlcsnap-2019-12-05-20h00m41s207.png);
+   background-image: url(xmpfb3t5pzejf4fr4hxd.png);
     display:flex;
     flex-direction: column;
     align-items: center;
